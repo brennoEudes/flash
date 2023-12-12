@@ -8,6 +8,9 @@ import {
   ProgressIndicator,
 } from "@repo/ui/progress-bar";
 
+import { Arrow } from "@repo/ui/arrow";
+import Link from "next/link";
+
 const FlashCardsTotal = 12;
 
 export default function Flash() {
@@ -17,7 +20,13 @@ export default function Flash() {
   return (
     <div className="bg-gradient-to-t from-aquamarine-500 to-aquamarine-300 h-screen text-black-950 flex flex-col md:items-center">
       {/* "h-screen" ocupa toda vh */}
+
       <div className="flex-1 flex flex-col self-stretch items-center py-12">
+        <div className="absolute w-full px-6">
+          <Link href="/">
+            <Arrow />
+          </Link>
+        </div>
         <div className="space-y-4">
           <span className="text-xl font-bold leading-heading">
             Fundamentos do JavaScript

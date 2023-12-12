@@ -7,7 +7,7 @@ interface ButtonProps extends ComponentProps<"button"> {} // extendendo todas as
 export function Button(props: ButtonProps) {
   return (
     <button
-      className="py-3 px-5 flex it gap-3 font-bold text-sm bg-aquamarine-400 text-softpeach-50 rounded-md hover:bg-aquamarine-600 transition-colors"
+      className="py-3 px-5 flex gap-3 font-bold text-sm bg-aquamarine-400 text-softpeach-50 rounded-md hover:bg-aquamarine-600 transition-colors"
       {...props}
     ></button>
   );
