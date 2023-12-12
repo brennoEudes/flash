@@ -4,6 +4,8 @@ import { colors } from "@repo/tokens/colors";
 import { MoveRight } from "lucide-react";
 import { Button, ButtonIcon, ButtonText } from "@repo/ui/button";
 
+import Link from "next/link";
+
 export default function Home() {
   return (
     // <div>
@@ -49,10 +51,12 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex items-center justify-between">
-                  <Button>
-                    <ButtonText>Acessar Coleção</ButtonText>
-                    <ButtonIcon icon={MoveRight} />
-                  </Button>
+                  <Link href="/flash">
+                    <Button>
+                      <ButtonText>Acessar Coleção</ButtonText>
+                      <ButtonIcon icon={MoveRight} />
+                    </Button>
+                  </Link>
 
                   <div className="flex items-center gap-2">
                     <div className="w-6 h-6">
