@@ -28,7 +28,7 @@ export default function Flash() {
           </Link>
         </div>
         <div className="space-y-4">
-          <span className="text-xl font-bold leading-heading flex px-8 text-center">
+          <span className="text-xl font-bold leading-heading flex px-10 text-center">
             JavaScript Fundamentals
           </span>
 
