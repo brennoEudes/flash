@@ -20,15 +20,15 @@ export default function Flash() {
   return (
     <div className="bg-gradient-to-t from-aquamarine-500 to-aquamarine-300 h-screen text-black-950 flex flex-col md:items-center">
       {/* "h-screen" ocupa toda vh */}
+      <div className="absolute w-full mt-12 ml-4">
+        <Link href="/">
+          <Arrow />
+        </Link>
+      </div>
 
-      <div className="flex-1 flex flex-col self-stretch items-center py-12">
-        <div className="absolute w-full px-6">
-          <Link href="/">
-            <Arrow />
-          </Link>
-        </div>
+      <div className="flex-1 flex flex-col self-stretch items-center py-12 px-6">
         <div className="space-y-4">
-          <span className="text-xl font-bold leading-heading flex px-10 text-center">
+          <span className="text-xl font-bold leading-heading flex px-8 text-center">
             JavaScript Fundamentals
           </span>
 
@@ -38,7 +38,7 @@ export default function Flash() {
           </Progress>
         </div>
 
-        <div className="relative mt-20 w-full max-w-[420px] min-h-[416px]">
+        <div className="relative mt-10 w-full max-w-[420px] min-h-[416px]">
           {/* OBS: no projeto Diego é "absolute", mas ficou dando problema aqui! */}
           <motion.div
             className="rounded-lg relative inset-0 h-full bg-softpeach-50 w-full py-6 px-6 z-20"
