@@ -30,7 +30,7 @@ export default function Home() {
         </span>
       </div>
       <main className="p-6 flex flex-col gap-4">
-        <span className="text-lg font-bold leading-heading">Coleções</span>
+        <span className="text-lg font-bold leading-heading">Colections</span>
         <div className="flex flex-col gap-4 md:grid md:grid-cols-2 lg:grid-cols-3">
           {Array.from({ length: 12 }).map((_, i) => {
             return (
@@ -43,17 +43,17 @@ export default function Home() {
                 </span>
                 <div className="space-y-2">
                   <h2 className="font-bold leading-heading">
-                    Fundamentos do JavaScript
+                    JavaScript Fundamentals
                   </h2>
                   <p className="text-black-500 text-sm leading-base">
-                    Treine seus conhecimentos nos fundamentos do JavaScript como
-                    Arrays, Variáveis e Estruturas de repetição.
+                    Train your knowledge of JavaScript fundamentals such as
+                    Arrays, Variables and Repeating Structures.
                   </p>
                 </div>
                 <div className="flex items-center justify-between">
                   <Link href="/flash">
                     <Button>
-                      <ButtonText>Acessar Coleção</ButtonText>
+                      <ButtonText>Access Collection</ButtonText>
                       <ButtonIcon icon={MoveRight} />
                     </Button>
                   </Link>

@@ -29,7 +29,7 @@ export default function Flash() {
         </div>
         <div className="space-y-4">
           <span className="text-xl font-bold leading-heading flex px-8 text-center">
-            Fundamentos do JavaScript
+            JavaScript Fundamentals
           </span>
 
           <Progress max={FlashCardsTotal} now={flashCardsCount}>
@@ -74,8 +74,8 @@ export default function Flash() {
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.25 }}
                 >
-                  Qual é o método utilizado para percorrer um array e criar um
-                  novo array a partir do original, com possíveis modificações?
+                  What is the method used to iterate through an array and create
+                  a new array of the original, with possible modifications?
                 </motion.p>
               )}
             </AnimatePresence>
@@ -92,7 +92,7 @@ export default function Flash() {
         }}
         className="bg-pinegreen-50 font-bold py-8 w-full hover: bg-pinegreen-50/90 md:w-[320px] md:mb-16 md:rounded-full md:py-6"
       >
-        Revelar Resposta
+        Reveal Answer
       </button>
     </div>
   );
